@@ -92,3 +92,40 @@ main .container div {
   font-size: 30px;
   padding: 60px 0;
 }
+
+
+
+/******** 
+library
+********/
+
+#library {
+  background-color: #0282f9;
+  padding: 50px 0;
+}
+
+#library a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#library .container {
+  align-items: center;
+  gap: 30px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.content img {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+.content span {
+  font-size: 12px;
+}
