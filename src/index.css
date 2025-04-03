@@ -129,3 +129,108 @@ library
 .content span {
   font-size: 12px;
 }
+
+
+
+
+/****************
+  FOOTER
+****************/
+
+
+
+/******** 
+FOOTER-TOP
+********/
+
+#footerTop {
+  background-image: url('./../public/footer-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footerTop .container {
+  overflow: hidden;
+}
+
+#footerTop .container .container {
+  margin: 0;
+  justify-content: flex-start;
+  gap: 20px;
+  overflow: hidden;
+  padding: 45px 0;
+}
+
+#footerTop ul {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+#footerTop h4 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#footerTop ul li {
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+
+#footerTop a {
+  color: #959595;
+  text-decoration: none;
+}
+
+#footerLogo {
+  position: relative;
+}
+
+#footerLogo img {
+  position: absolute;
+  width: auto;
+  right: 0;
+  top: -25%;
+}
+
+
+/******** 
+FOOTER-BOTTOM
+********/
+
+#footerBottom {
+  padding: 30px 0;
+  background-color: #303030;
+}
+
+#footerBottom a {
+  text-decoration: none;
+}
+
+#footerBottom .container {
+  align-items: center;
+}
+
+#footerBottom .container .container {
+  justify-content: flex-end;
+  gap: 30px;
+  margin: 0;
+}
+
+#footerBottom .container .container span {
+  color: #0282f9;
+  font-weight: bold;
+}
+
+#footerBottom ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.button {
+  padding: 15px;
+  border: 2px solid #0282f9;
+  color: #ffffff;
+}
