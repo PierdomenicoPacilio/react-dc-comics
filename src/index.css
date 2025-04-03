@@ -55,9 +55,9 @@ body {
   HEADER  
 ****************/
 
-header {
-  height: 120px;
+header>div {
   padding: 20px;
+  height: 120px;
 }
 
 header img {
@@ -73,6 +73,22 @@ header ul {
 
 header ul a {
   text-decoration: none;
-  color: black;
+  color: #1c1c1c;
   font-size: 11px;
+}
+
+
+
+/****************
+  MAIN
+****************/
+
+main {
+  background-color: #1c1c1c;
+}
+
+main .container div {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 60px 0;
 }
