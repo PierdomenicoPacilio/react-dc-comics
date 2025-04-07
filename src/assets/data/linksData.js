@@ -8,218 +8,258 @@ const data = {
     header: {
         links1: [
             {
-                "img": "#",
-                "text": "Characters",
-                "url": "#"
+                id: 1,
+                img: "#",
+                text: "Characters",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Comics",
-                "url": "#"
+                id: 2,
+                img: "#",
+                text: "Comics",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Movies",
-                "url": "#"
+                id: 3,
+                img: "#",
+                text: "Movies",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Tv",
-                "url": "#"
+                id: 4,
+                img: "#",
+                text: "Tv",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Games",
-                "url": "#"
+                id: 5,
+                img: "#",
+                text: "Games",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Collectibles",
-                "url": "#"
+                id: 6,
+                img: "#",
+                text: "Collectibles",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Videos",
-                "url": "#"
+                id: 7,
+                img: "#",
+                text: "Videos",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Fans",
-                "url": "#"
+                id: 8,
+                img: "#",
+                text: "Fans",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "News",
-                "url": "#"
+                id: 9,
+                img: "#",
+                text: "News",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Shop",
-                "url": "#"
+                id: 10,
+                img: "#",
+                text: "Shop",
+                url: "#"
             }
         ]
     },
     library: {
         links1: [
             {
-                "img": digitalComics,
-                "text": "Digital Comics",
-                "url": "#"
+                id: 1,
+                img: digitalComics,
+                text: "Digital Comics",
+                url: "#"
             },
             {
-                "img": merchandise,
-                "text": "DC Merchandise",
-                "url": "#"
+                id: 2,
+                img: merchandise,
+                text: "DC Merchandise",
+                url: "#"
             },
             {
-                "img": subscriptions,
-                "text": "Subscription",
-                "url": "#"
+                id: 3,
+                img: subscriptions,
+                text: "Subscription",
+                url: "#"
             },
             {
-                "img": locator,
-                "text": "Comic Shop Locator",
-                "url": "#"
+                id: 4,
+                img: locator,
+                text: "Comic Shop Locator",
+                url: "#"
             },
             {
-                "img": powerVisa,
-                "text": "DC Power Visa",
-                "url": "#"
+                id: 5,
+                img: powerVisa,
+                text: "DC Power Visa",
+                url: "#"
             }
         ]
     },
     footer: {
         links1: [
             {
-                "img": "#",
-                "text": "Characters",
-                "url": "#"
+                id: 1,
+                img: "#",
+                text: "Characters",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Comics",
-                "url": "#"
+                id: 2,
+                img: "#",
+                text: "Comics",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Movies",
-                "url": "#"
+                id: 3,
+                img: "#",
+                text: "Movies",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Tv",
-                "url": "#"
+                id: 4,
+                img: "#",
+                text: "Tv",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Games",
-                "url": "#"
+                id: 5,
+                img: "#",
+                text: "Games",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Videos",
-                "url": "#"
+                id: 6,
+                img: "#",
+                text: "Videos",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "News",
-                "url": "#"
+                id: 7,
+                img: "#",
+                text: "News",
+                url: "#"
             }
         ],
         links2: [
             {
-                "img": "#",
-                "text": "Shop DC",
-                "url": "#"
+                id: 1,
+                img: "#",
+                text: "Shop DC",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Shop DC Collectibles",
-                "url": "#"
+                id: 2,
+                img: "#",
+                text: "Shop DC Collectibles",
+                url: "#"
             }
         ],
         links3: [
             {
-                "img": "#",
-                "text": "Terms Of Use",
-                "url": "#"
+                id: 1,
+                img: "#",
+                text: "Terms Of Use",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Privacy policy (New)",
-                "url": "#"
+                id: 2,
+                img: "#",
+                text: "Privacy policy (New)",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Ad Choices",
-                "url": "#"
+                id: 3,
+                img: "#",
+                text: "Ad Choices",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Advertising",
-                "url": "#"
+                id: 4,
+                img: "#",
+                text: "Advertising",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Jobs",
-                "url": "#"
+                id: 5,
+                img: "#",
+                text: "Jobs",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Subscription",
-                "url": "#"
+                id: 6,
+                img: "#",
+                text: "Subscription",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Talent Workshops",
-                "url": "#"
+                id: 7,
+                img: "#",
+                text: "Talent Workshops",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "CPSC Certificates",
-                "url": "#"
+                id: 8,
+                img: "#",
+                text: "CPSC Certificates",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Ratings",
-                "url": "#"
+                id: 9,
+                img: "#",
+                text: "Ratings",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Shop Help",
-                "url": "#"
+                id: 10,
+                img: "#",
+                text: "Shop Help",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "Contact Us",
-                "url": "#"
+                id: 11,
+                img: "#",
+                text: "Contact Us",
+                url: "#"
             }
         ],
         links4: [
             {
-                "img": "#",
-                "text": "DC",
-                "url": "#"
+                id: 1,
+                img: "#",
+                text: "DC",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "MAD Magazine",
-                "url": "#"
+                id: 2,
+                img: "#",
+                text: "MAD Magazine",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "DC Kids",
-                "url": "#"
+                id: 3,
+                img: "#",
+                text: "DC Kids",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "DC Universe",
-                "url": "#"
+                id: 4,
+                img: "#",
+                text: "DC Universe",
+                url: "#"
             },
             {
-                "img": "#",
-                "text": "DC Power Visa",
-                "url": "#"
+                id: 5,
+                img: "#",
+                text: "DC Power Visa",
+                url: "#"
             }
         ]
     }

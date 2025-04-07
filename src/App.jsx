@@ -9,8 +9,8 @@ function App() {
     <>
       <Header links={data.header} />
       <Main />
-      <Library />
-      <Footer />
+      <Library links={data.library} />
+      <Footer links={data.footer} />
     </>
   )
 }

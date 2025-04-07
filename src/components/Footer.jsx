@@ -7,7 +7,8 @@ import pinterestLogo from './../assets/img/footer-pinterest.png'
 import mapsLogo from './../assets/img/footer-periscope.png'
 
 
-export default function Footer() {
+export default function Footer(props) {
+    const getLinks = (link) => link.map(link => <a key={link.id} href={link.url}><li>{link.text}</li></a>)
     return <footer>
         <div id="footerTop">
             <div className="container">
@@ -15,44 +16,23 @@ export default function Footer() {
                     <div>
                         <h4>DC COMICS</h4>
                         <ul>
-                            <a href="#"><li>Characters</li></a>
-                            <a href="#"><li>Comics</li></a>
-                            <a href="#"><li>Movies</li></a>
-                            <a href="#"><li>TV</li></a>
-                            <a href="#"><li>Games</li></a>
-                            <a href="#"><li>Videos</li></a>
-                            <a href="#"><li>News</li></a>
+                            {getLinks(props.links.links1)}
                         </ul>
                         <h4>SHOP</h4>
                         <ul>
-                            <a href="#"><li>Shop DC</li></a>
-                            <a href="#"><li>Shop DC Collectibles</li></a>
+                            {getLinks(props.links.links2)}
                         </ul>
                     </div>
                     <div>
                         <h4>DC</h4>
                         <ul>
-                            <a href="#"><li>Terms Of Use</li></a>
-                            <a href="#"><li>Privacy policy {"(New)"}</li></a>
-                            <a href="#"><li>Ad Choices</li></a>
-                            <a href="#"><li>Advertising</li></a>
-                            <a href="#"><li>Jobs</li></a>
-                            <a href="#"><li>Subscription</li></a>
-                            <a href="#"><li>Talent Workshops</li></a>
-                            <a href="#"><li>CPSC Certificates</li></a>
-                            <a href="#"><li>Ratings</li></a>
-                            <a href="#"><li>Shop Help</li></a>
-                            <a href="#"><li>Contact Us</li></a>
+                            {getLinks(props.links.links3)}
                         </ul>
                     </div>
                     <div>
                         <h4>SITES</h4>
                         <ul>
-                            <a href="#"><li>DC</li></a>
-                            <a href="#"><li>MAD Magazine</li></a>
-                            <a href="#"><li>DC Kids</li></a>
-                            <a href="#"><li>DC Universe</li></a>
-                            <a href="#"><li>DC Power Visa</li></a>
+                            {getLinks(props.links.links4)}
                         </ul>
                     </div>
                 </div>
