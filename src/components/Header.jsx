@@ -6,7 +6,9 @@ export default function Header(props) {
             <div>
                 <img src="dc-logo.png" alt="DC Logo" />
             </div>
-            <Linklist headerLinks={props.headerLinks} />
+            <Linklist links={props.links.links1} />
         </div>
     </header>
 }
+
+// headerLinks={props.headerLinks}

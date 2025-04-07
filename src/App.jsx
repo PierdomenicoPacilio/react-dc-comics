@@ -2,12 +2,12 @@ import Header from "./components/Header"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
 import Library from "./components/Library"
-const headerLinks = ["CHARACTERS", "COMICS", "MOVIES", "TV", "GAMES", "COLLECTIBLES", "VIDEOS", "FANS", "NEWS", "SHOP"]
+import data from "./assets/data/linksData"
 
 function App() {
   return (
     <>
-      <Header headerLinks={headerLinks} />
+      <Header links={data.header} />
       <Main />
       <Library />
       <Footer />

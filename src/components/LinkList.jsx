@@ -1,5 +1,5 @@
-export default function Linklist({ headerLinks }) {
+export default function Linklist({ links }) {
     return <ul>
-        {headerLinks.map(link => <a href="#"><li>{link}</li></a>)}
+        {links.map(link => <a href={link.url}><li>{link.text}</li></a>)}
     </ul>
 }
