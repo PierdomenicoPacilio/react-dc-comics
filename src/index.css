@@ -93,6 +93,11 @@ main .container div {
   padding: 60px 0;
 }
 
+#jumbotron {
+  height: 400px;
+  overflow: hidden;
+}
+
 
 
 /******** 
