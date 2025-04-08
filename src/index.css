@@ -87,17 +87,37 @@ main {
   background-color: #1c1c1c;
 }
 
-main .container div {
-  color: #ffffff;
-  font-size: 30px;
-  padding: 60px 0;
-}
-
 #jumbotron {
-  height: 400px;
+  height: 300px;
   overflow: hidden;
 }
 
+main a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.grid {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 0;
+}
+
+.card {
+  width: calc((100% - 150px) / 6);
+}
+
+.card div {
+  overflow: hidden;
+  height: 120px;
+}
+
+.card p {
+  margin-top: 8px;
+  font-size: 9px;
+}
 
 
 /******** 
